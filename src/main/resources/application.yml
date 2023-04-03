@@ -1,0 +1,10 @@
+problem:
+  reproduce:
+    service:
+      bus:
+        properties:
+          connection-string:
+          entity-name:
+spring:
+  config:
+    import: develop.yml
